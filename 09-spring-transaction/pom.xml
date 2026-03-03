@@ -10,8 +10,8 @@
   <name>09-spring-transaction</name>
   <url>http://maven.apache.org</url>
   <modules>
-    <module>01-xml-and-annotation</module>
-      <module>02-pure-annotation</module>
+    <module>pure-annotation</module>
+      <module>xml-and-annotation</module>
   </modules>
 
   <properties>
