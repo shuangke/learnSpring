@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="01-spring-mvc-basic:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/01_spring_mvc_basic_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="01-spring-mvc-basic" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:6.2.12" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:6.2.12" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:6.2.12" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:6.2.12" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:6.2.12" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:6.2.12" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-observation:1.14.12" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-commons:1.14.12" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:6.2.12" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:6.2.12" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="01-spring-mvc-basic/web/Web" />
+    </root>
+  </artifact>
+</component>
