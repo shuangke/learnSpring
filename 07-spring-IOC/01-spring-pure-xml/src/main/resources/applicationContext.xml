@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- injecting values from properties file -->
+    <context:property-placeholder location="classpath:school-info.properties" />
+
+    <!-- bean definition -->
+    <bean id="professor" class="com.shuangke.Professor">
+        <!-- injecting values from properties file using ${propertyName}
+             the name of the property should be the name of the setter method without the "set" prefix
+             and with the first letter in lowercase
+             setProfessorName() -> professorName
+             setDepartment() -> department
+         -->
+        <property name="professorName" value="${professor.name}" />
+        <property name="department" value="${professor.department}" />
+        <property name="rating" value="${professor.rating}" />
+    </bean>
+
+    <bean id="clazz" class="com.shuangke.Clazz">
+        <property name="classCode" value="${clazz.code}" />
+        <property name="className" value="${clazz.name}" />
+        <!-- injecting another bean by using the ref="beanId" -->
+        <property name="professor" ref="professor" />
+    </bean>
+</beans>

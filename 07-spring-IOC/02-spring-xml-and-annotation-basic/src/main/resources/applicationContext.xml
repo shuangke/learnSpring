@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+     核心配置类（applicationContext.xml）就只包含三个内容了
+            导入外部properties文件
+            定义third-party class的bean definition
+            component scan <context:component-scan base-package=”要扫描包的全限定名1，要扫描包的全限定名2, ….” />
+     -->
+    <context:property-placeholder location="classpath:school-info.properties, classpath:jdbc.properties" />
+    <context:component-scan base-package="com.shuangke" />
+
+    <!-- create bean from third-party class -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+        <property name="driverClassName" value="${jdbc.classname}" />
+    </bean>
+</beans>

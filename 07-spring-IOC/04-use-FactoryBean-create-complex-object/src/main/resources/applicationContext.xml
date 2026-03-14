@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 定义一个FactoryBean，用于创建复杂对象
+     the id of the complex object in IOC is "myComplexObject"
+     the id of the ComplexObjectFactoryBean in spring IOC is "&myComplexObject"
+     passing the parameter "complexObjectName" to the ComplexObjectFactoryBean, which will be indirectly passed to the
+     ComplexObject when creating the complex object
+    -->
+    <bean id="myComplexObject" class="com.shuangke.ComplexObjectFactoryBean">
+        <property name="complexObjectName" value="object1"/>
+    </bean>
+</beans>

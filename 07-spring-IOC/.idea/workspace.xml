@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="07782c20-49be-410d-8014-72520358a2f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/shuangke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-spring-pure-xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-spring-pure-xml/src/main/java/com/shuangke/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-spring-pure-xml/src/main/java/com/shuangke/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-spring-pure-xml/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-spring-pure-xml/src/main/resources/school-info.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-spring-pure-xml/src/test/java/com/shuangke/IOCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-spring-xml-and-annotation-basic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-spring-xml-and-annotation-basic/src/main/java/com/shuangke/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-spring-xml-and-annotation-basic/src/main/java/com/shuangke/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-spring-xml-and-annotation-basic/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-spring-xml-and-annotation-basic/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-spring-xml-and-annotation-basic/src/main/resources/school-info.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-spring-xml-and-annotation-basic/src/test/java/com/shuangke/IOCTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-spring-pure-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-spring-pure-annotation/src/main/java/com/shuangke/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-spring-pure-annotation/src/main/java/com/shuangke/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-spring-pure-annotation/src/main/java/com/shuangke/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-spring-pure-annotation/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-spring-pure-annotation/src/main/resources/school-info.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-spring-pure-annotation/src/test/java/com/shuangke/IOCTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-use-FactoryBean-create-complex-object/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-use-FactoryBean-create-complex-object/src/main/java/com/shuangke/ComplexObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-use-FactoryBean-create-complex-object/src/main/java/com/shuangke/ComplexObjectFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-use-FactoryBean-create-complex-object/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-use-FactoryBean-create-complex-object/src/test/java/com/shuangke/TestFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-bean-lifecycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-bean-lifecycle/src/main/java/com/shuangke/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-bean-lifecycle/src/main/java/com/shuangke/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-bean-lifecycle/src/main/java/com/shuangke/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-bean-lifecycle/src/main/resources/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-bean-lifecycle/src/test/java/com/shuangke/TestBeanLifecycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-spring-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09-spring-mvc/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/shuangke/Desktop/2026/learnSpring/07-spring-IOC" value="3AgtJghYp1ZbJGCNh6pUgWn0HrK" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shuangke&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:shuangke/learnSpring.git&quot;,
+    &quot;accountId&quot;: &quot;1cdddf7e-c772-48ab-809e-8dc233bec622&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$USER_HOME$/Documents/softwares/apache-maven-3.9.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/softwares/apache-maven-3.9.6/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3AgtJghYp1ZbJGCNh6pUgWn0HrK" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.IOCTest (1).executor": "Run",
+    "JUnit.IOCTest.executor": "Run",
+    "JUnit.IOCTest.testApproachOneOfGettingBean.executor": "Run",
+    "JUnit.IOCTest.testApproachTwoOfGettingBean.executor": "Run",
+    "JUnit.IOCTest3.executor": "Run",
+    "JUnit.TestBeanLifecycle.executor": "Run",
+    "JUnit.TestBeanLifecycle.testBeanLifecycle.executor": "Run",
+    "JUnit.TestFactoryBean.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.01-spring-pure-xml [clean].executor": "Run",
+    "Maven.07-spring-IOC [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/shuangke/Desktop/2026/learnSpring/07-spring-IOC/03-spring-pure-annotation/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03-spring-pure-annotation/src/main" />
+      <recent name="$PROJECT_DIR$/03-spring-pure-annotation/src/main/java/com/shuangke" />
+      <recent name="$PROJECT_DIR$/02-spring-xml-and-annotation-basic/src/main/resources" />
+      <recent name="$PROJECT_DIR$/02-spring-xml-and-annotation-basic/src/test/java/com/shuangke" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shuangke" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shuangke" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestBeanLifecycle">
+    <configuration name="IOCTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-spring-xml-and-annotation-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuangke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuangke" />
+      <option name="MAIN_CLASS_NAME" value="com.shuangke.IOCTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-spring-pure-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuangke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuangke" />
+      <option name="MAIN_CLASS_NAME" value="com.shuangke.IOCTest3" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBeanLifecycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-bean-lifecycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuangke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuangke" />
+      <option name="MAIN_CLASS_NAME" value="com.shuangke.TestBeanLifecycle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBeanLifecycle.testBeanLifecycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-bean-lifecycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuangke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuangke" />
+      <option name="MAIN_CLASS_NAME" value="com.shuangke.TestBeanLifecycle" />
+      <option name="METHOD_NAME" value="testBeanLifecycle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFactoryBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04-use-FactoryBean-create-complex-object" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shuangke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shuangke" />
+      <option name="MAIN_CLASS_NAME" value="com.shuangke.TestFactoryBean" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestBeanLifecycle" />
+        <item itemvalue="JUnit.TestBeanLifecycle.testBeanLifecycle" />
+        <item itemvalue="JUnit.TestFactoryBean" />
+        <item itemvalue="JUnit.IOCTest3" />
+        <item itemvalue="JUnit.IOCTest2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-84258761d1cc-intellij.indexing.shared.core-IU-243.28141.18" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.28141.18" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07782c20-49be-410d-8014-72520358a2f1" name="Changes" comment="" />
+      <created>1742018007615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742018007615</updated>
+      <workItem from="1773025971649" duration="1962000" />
+      <workItem from="1773027942938" duration="245000" />
+      <workItem from="1773028193572" duration="11059000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
