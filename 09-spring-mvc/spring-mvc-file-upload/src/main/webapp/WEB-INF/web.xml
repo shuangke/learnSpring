@@ -13,6 +13,14 @@
                 option1: controller将结果发给经理，经理再把结果发给老板，老板再把结果发给ViewResolver（前台），前台根据结果找到对应的视图（jsp）并返回给老板，老板再把视图返回给client
                 option2: controller直接把json数据返回给老板，老板再把json数据返回给client
          -->
+        <!-- dispatcherServlet will create a Spring IOC container by
+       loading the configuration from the specified location 'classpath:spring-mvc.xml'.
+       load-on-startup: This element specifies the order in which the servlet should be loaded when the application starts.
+       A value of 1 means that this servlet should be loaded before any other servlets with
+       a higher value (or no value, which defaults to 0).
+       Since dispatcherServlet creates the Spring IOC container,
+       we want it to be loaded as early as possible.
+       -->
         <servlet-name>dispatcherServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
@@ -31,7 +39,7 @@
         </multipart-config>
 
         <!-- 爆红是正常的是java的格式restraint太老了 -->
-        <load-on-startup>1</load-on-startup> <!-- 服务器启动时就加载DispatcherServlet, 将DispatcherServlet放入spring IOC 容器-->
+        <load-on-startup>1</load-on-startup> <!-- 服务器启动时就加载DispatcherServlet-->
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcherServlet</servlet-name>
