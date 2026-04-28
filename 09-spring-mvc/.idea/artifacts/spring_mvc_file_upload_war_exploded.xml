@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="01-spring-mvc-basic:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/01_spring_mvc_basic_war_exploded</output-path>
+  <artifact type="exploded-war" name="spring-mvc-file-upload:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_mvc_file_upload_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="01-spring-mvc-basic" />
+          <element id="module-output" name="spring-mvc-file-upload" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:6.2.12" />
@@ -17,9 +17,15 @@
           <element id="library" level="project" name="Maven: io.micrometer:micrometer-commons:1.14.12" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:6.2.12" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:6.2.12" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.19.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.19.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.19.2" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.5" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.11.0" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.42" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="01-spring-mvc-basic/web/Web" />
+      <element id="javaee-facet-resources" facet="spring-mvc-file-upload/web/webapp" />
     </root>
   </artifact>
 </component>

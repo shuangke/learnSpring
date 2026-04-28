@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <!--
+            1. 创建DispatcherServletl老板，所有的clients的请求都是打到这儿的
+            2. 然后老板再把请求的信息交给HandlerMapping（秘书）去找对应的Handler：秘书有一本请求路径到具体handler（controller）的册子
+                秘书将找到的handler信息return给老板
+            3. 老板会把请求的信息交给HandlerAdapter（经理），经理convert请求的信息成Controller能处理的参数，然后把请求的信息交给Controller
+            4. Controller处理请求：
+                option1: controller将结果发给经理，经理再把结果发给老板，老板再把结果发给ViewResolver（前台），前台根据结果找到对应的视图（jsp）并返回给老板，老板再把视图返回给client
+                option2: controller直接把json数据返回给老板，老板再把json数据返回给client
+         -->
+        <servlet-name>dispatcherServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:spring-mvc.xml</param-value>
+        </init-param>
+        <multipart-config>
+            <!-- 当上传的文件超过这个大小时（单位为字节），单个文件将被拒绝 -->
+            <max-file-size>10485760</max-file-size>
+
+            <!-- 当上传的文件超过这个大小时（单位为字节），整个请求将被拒绝 -->
+            <max-request-size>20971520</max-request-size>
+
+            <!-- 当上传的文件超过这个大小时（单位为字节），文件将被写入磁盘而不是保存在内存中 -->
+            <file-size-threshold>5242880</file-size-threshold>
+        </multipart-config>
+
+        <!-- 爆红是正常的是java的格式restraint太老了 -->
+        <load-on-startup>1</load-on-startup> <!-- 服务器启动时就加载DispatcherServlet, 将DispatcherServlet放入spring IOC 容器-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <url-pattern>/</url-pattern> <!-- 所有的请求都交给DispatcherServlet处理 -->
+    </servlet-mapping>
+</web-app>

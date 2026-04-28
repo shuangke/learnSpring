@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring MVC File Upload Example</title>
+</head>
+<body>
+    <h1>Spring MVC File Upload Example</h1>
+    <!--
+        Form to upload a file
+        action ="full address of the controller method that will handle the file upload request"
+        如果前端页面和后端控制器在同一个项目中，可以直接使用相对路径，如 action="/file/upload"
+    -->
+    <form method="POST" action="http://localhost:8080/file/upload" enctype="multipart/form-data">
+        Account:<input type="text" name="account" placeholder="please enter your account"/><br>
+        <input type="file" name="headImage"/><br>
+        <button>submit</button><br>
+    </form>
+</body>
+</html>
